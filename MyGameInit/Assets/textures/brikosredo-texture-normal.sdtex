@@ -1,0 +1,6 @@
+!Texture
+Id: 868ba959-09ae-4cf7-bf01-114a96fd6a1d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/brikosredo-texture-normal.png
+Type: !NormalMapTextureType {}

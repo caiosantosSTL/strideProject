@@ -1,0 +1,7 @@
+!Texture
+Id: 6e618fcb-e489-49b9-bdb9-4f25b5ee06d1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/brik-texture3-2.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

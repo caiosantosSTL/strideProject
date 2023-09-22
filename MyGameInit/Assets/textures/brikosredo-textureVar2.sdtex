@@ -1,0 +1,7 @@
+!Texture
+Id: 13bffe73-9c0d-43df-9a98-f0e0e0ae3f7b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/brikosredo-textureVar2.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

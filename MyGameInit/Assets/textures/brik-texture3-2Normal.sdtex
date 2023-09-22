@@ -1,0 +1,6 @@
+!Texture
+Id: 99f55697-983a-4d5e-a854-d7c4e8b4965c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/brik-texture3-2Normal.png
+Type: !NormalMapTextureType {}

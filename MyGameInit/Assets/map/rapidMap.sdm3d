@@ -1,0 +1,19 @@
+!Model
+Id: 79444cab-e1c6-429b-91d7-5e1a29ca2fd0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/rapidMap.fbx
+Skeleton: 32215ab5-dbb6-45c7-a65f-e4ea9c2cf5c2:map/rapidMap Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1144526dc2aa6bb4bcb10941e4e0395d:
+        Name: Material.001
+        MaterialInstance:
+            Material: null
+    ac23f19a63f249a79d4ab9aebc286071:
+        Name: Material.002
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    5e5ec6e7fe60479223c852c68b3e0b5e~../../../../../../Pictures/rapidMap/rapidMap.fbx: 2d50f89d362274a0f6aedd6266dca26c

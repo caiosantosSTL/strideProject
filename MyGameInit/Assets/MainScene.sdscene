@@ -1,0 +1,195 @@
+!SceneAsset
+Id: 29b0da79-9531-41de-b76b-85eb4c60af41
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! f8aa1e7f-6414-492d-85e1-77651d160225
+        - ref!! 5396ab3a-63fd-480f-ac83-ad565030d62c
+        - ref!! fedeb749-fe63-4743-9f0a-b5a511450479
+        - ref!! 1f6a70ca-78cd-41e0-bf0e-f3bbafd93a66
+        - ref!! 741abb8d-6dd0-4b79-be1c-43272d39b24a
+    Parts:
+        -   Entity:
+                Id: 1f6a70ca-78cd-41e0-bf0e-f3bbafd93a66
+                Name: rapidMap
+                Components:
+                    0227c42aebe05762fc0a93e10b40ca0f: !TransformComponent
+                        Id: 8cca0543-577b-4482-ab1b-ab157fa42c24
+                        Position: {X: 16.269917, Y: 0.0, Z: 13.783228}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9584d54bd999d7e767f3bf2ea230b416: !ModelComponent
+                        Id: 735849d2-76ee-44e3-9155-b778fc955287
+                        Model: 79444cab-e1c6-429b-91d7-5e1a29ca2fd0:map/rapidMap
+                        Materials:
+                            a96e62e79b8e37c696155eb949cf51f9~0: 0ae84116-587f-425c-ab68-9472aef5b256:textures/Brick
+                            e295bcb31e37d9791331f7dfdfa9543d~1: 6c614edb-6d98-4f9c-81a7-40e74bd8418c:textures/BrickRed
+                    03d475031c722dda7ccf18ec3d232b71: !StaticColliderComponent
+                        Id: d54a1027-37f1-416a-905f-b388787275a3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            7f0463637a85ac99141b1dfe7421b3f0: !StaticMeshColliderShapeDesc
+                                Model: 79444cab-e1c6-429b-91d7-5e1a29ca2fd0:map/rapidMap
+        -   Entity:
+                Id: 47ae0f7e-43a4-40a7-955f-109d135f6fe8
+                Name: Nose
+                Components:
+                    9cb90570733fee37bc2c89b4f1533d99: !TransformComponent
+                        Id: 74121a3d-5035-41c6-b7ed-49e39d51044d
+                        Position: {X: 0.16611776, Y: 0.36473462, Z: -0.006757438}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5179219, Y: 0.48347816, Z: 0.46169314}
+                        Children: {}
+                    c877a65e6eced21a8e065cae4d6f2d3a: !ModelComponent
+                        Id: 82737a1a-c216-400b-9432-f9f375b51f52
+                        Model: f2806eab-08d6-47e4-84b5-52a021be9173:Cube
+                        Materials: {}
+        -   Entity:
+                Id: 5396ab3a-63fd-480f-ac83-ad565030d62c
+                Name: Skybox
+                Components:
+                    cad3e57b6dfb6bb6346cb535d07f3212: !TransformComponent
+                        Id: 43f61d1f-a682-4749-8850-d24e39092b8a
+                        Position: {X: 6.7946672, Y: 12.375621, Z: 4.451032}
+                        Rotation: {X: 0.0, Y: 0.26105744, Z: 0.0, W: 0.96532327}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2b0266b25f1bbfb93fa0a51faede6890: !BackgroundComponent
+                        Id: d2816734-7bd6-4581-8b49-30755fc7fdb6
+                        Texture: b8a9f18e-3c6e-48e1-83eb-bac9344d8b6d:textures/novacielo
+                        Intensity: 3.24
+                    cf5208970ea52fe0ce483f35e3e71390: !LightComponent
+                        Id: b44be40e-1063-4b81-9917-a9dae82da0d7
+                        Type: !LightSkybox
+                            Skybox: c920f332-7b1a-4c8d-90f8-fe56bc655dae:Skybox
+        -   Folder: Char
+            Entity:
+                Id: 741abb8d-6dd0-4b79-be1c-43272d39b24a
+                Name: Char
+                Components:
+                    d8bec13fba0cb7a4f4694da463381e7f: !TransformComponent
+                        Id: da7cee28-cf9c-4e6b-aaef-893a2b861a91
+                        Position: {X: 10.656219, Y: 6.991667, Z: 8.61094}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e42f78fcb3b1c58d1d0234e44a1e7556: ref!! 74121a3d-5035-41c6-b7ed-49e39d51044d
+                            cce460c606b86f6c11d80eb5507fd6bb: ref!! 3f2e84c2-220b-4899-a000-c10d1f4d1ce7
+                    47387ba1ae4bbbba4fbdaf2845ef6d6f: !ModelComponent
+                        Id: 181e6b15-8437-4809-a8e6-174dd94af20a
+                        Model: 574e63e8-8344-4e28-9e77-b6b96db91ee4:Char
+                        Materials: {}
+                    40c6107d0c4f768f784f835b45bd8eb2: !MyGameInit.test.MoveBox,MyGameInit
+                        Id: ab4454c5-e5bb-4604-831d-8c61036119f7
+                        jumpForce: 6.0
+                        Speed: 10.0
+                    13846dfa191eb5461fb0e54da7761324: !CharacterComponent
+                        Id: ef8b2900-f602-43de-ac27-2e5b0242b9f4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: {X: 0.0, Y: -10.0, Z: 0.0}
+                        ColliderShapes:
+                            749e79c93730ee5ca255cb1bca42ac94: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: abb2e653-93d1-4943-ab56-ebb8afd98e5d
+                Name: Camera
+                Components:
+                    b85329575804a7c834fa0fd77fa853c9: !TransformComponent
+                        Id: 3f2e84c2-220b-4899-a000-c10d1f4d1ce7
+                        Position: {X: -3.3670108, Y: 0.41783726, Z: -0.5850167}
+                        Rotation: {X: 0.0, Y: -0.772804, Z: 0.0, W: 0.6346447}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3916da2be3d035ee6425904439602dd5: !CameraComponent
+                        Id: b2e19923-ee23-4531-a67a-77d04d52b86f
+                        Name: null
+                        Projection: Perspective
+                        Slot: 0d4745b0-726e-497f-a165-0acf9a051456
+                    b25d1532b8e9751f4e09b9fe47be7bc4: !MyGameInit.BasicCameraController,MyGameInit
+                        Id: be182768-5144-4fa0-8a4e-e48026a1e844
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: f8aa1e7f-6414-492d-85e1-77651d160225
+                Name: Directional light
+                Components:
+                    042c7d923e48dd80241d52f20576a7ad: !TransformComponent
+                        Id: 103e7f7b-341f-44e8-a4a5-1298783dd0db
+                        Position: {X: 6.7946672, Y: 12.375621, Z: 6.451032}
+                        Rotation: {X: -0.080157615, Y: -0.9184338, Z: -0.24609359, W: 0.2991523}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ced6f52f3c4feca7b1829305d1d8571e: !LightComponent
+                        Id: e930fe0d-9ea0-42da-bf2d-53b2f5fd8a13
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.89, G: 0.6178654, B: 0.41830003}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 13.0
+        -   Entity:
+                Id: fedeb749-fe63-4743-9f0a-b5a511450479
+                Name: Sphere
+                Components:
+                    52f143bade9ac9c70e676d7eb1013eb8: !TransformComponent
+                        Id: 81247512-d7f5-490d-8497-8e5dfae89519
+                        Position: {X: 11.265925, Y: 9.572956, Z: 4.377063}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    425b75b5b6816887042c1cd84438a648: !ModelComponent
+                        Id: 61304a3a-be01-407d-9bab-b6e3c9635d35
+                        Model: 8d2b2c7e-e085-481a-9f71-171c923b6049:Sphere
+                        Materials: {}
+                    4a49a8ecac5991fe2fdc85bfd3651a37: !RigidbodyComponent
+                        Id: bf36064e-40dc-4b18-a6fe-9e5db8779f17
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            f934d885b4f8defbf4be047322d6c4fa: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}

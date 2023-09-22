@@ -1,0 +1,12 @@
+!Skeleton
+Id: 32215ab5-dbb6-45c7-a65f-e4ea9c2cf5c2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../Pictures/rapidMap/rapidMap.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    e54e3e50c03490933d8225b3e92973e0: {Name: RootNode, Depth: 0}
+    0ef27c120750339b267b11090fdd2e37: {Name: map, Depth: 1}
+    746718a7ecfb3cb6beb080b5d1a8500d: {Name: walls, Depth: 1}
+~SourceHashes:
+    62f89a5745e9fbb1c5916402841364ed~../../../../../../Pictures/rapidMap/rapidMap.fbx: 2d50f89d362274a0f6aedd6266dca26c
